@@ -27,6 +27,7 @@ graph LR
             backend --> templates
     app --> gui
             gui --> windows --> homeWindow
+                    windows --> helloWindow
     app --> tools
             tools --> serialport
 ```
